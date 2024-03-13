@@ -16,3 +16,14 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
    1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
    2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+
+# prettier(格式化工具)
+
+npm install -D eslint-plugin-prettier prettier eslint-config-prettier √
+
+1. 检查不符合规范：npm run lint
+2. 自动修改不规范语句：npm run fix
+
+
+# stylelint
+ 自动修改不规范语句：npm run format
