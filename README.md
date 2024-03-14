@@ -24,6 +24,6 @@ npm install -D eslint-plugin-prettier prettier eslint-config-prettier √
 1. 检查不符合规范：npm run lint
 2. 自动修改不规范语句：npm run fix
 
-
 # stylelint
- 自动修改不规范语句：npm run format
+
+自动修改不规范语句：npm run format
