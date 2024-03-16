@@ -1,20 +1,12 @@
 <template>
-  <div class="box">
-    <h1>我是app</h1>
+  <div>
+    <el-button type="primary" size="default" :icon="Plus">主要按钮</el-button>
   </div>
 </template>
 
 <script setup lang="ts">
-const str = '问问吧'
+// 引入图标组件
+import {Plus} from '@element-plus/icons-vue'
 </script>
 
-<style scoped lang="scss">
-.box {
-  width: 46px;
-  height: 55px;
-  background-color: papayawhip;
-  h1 {
-    color: pink;
-  }
-}
-</style>
+<style scoped></style>
