@@ -13,6 +13,8 @@ app.use(ElementPlus, {
   locale: zhCn,
 })
 console.log(import.meta.env)
+// svg插入文件
+import 'virtual:svg-icons-register'
 // 将应用挂载到挂载点上
 app.mount('#app')
 // createApp(App).mount('#app')
